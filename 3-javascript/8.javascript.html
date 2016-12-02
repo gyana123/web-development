@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Variables2 user input</title>
+	</head>
+	<body>
+		<input type="text" id="textinput">
+		<button id="mybutton">change the text!</button>
+		<p id="change me">This is some text</p>
+		<script type="text/javascript">
+			var x="";
+			document.getElementById("mybutton").onclick = function(){
+				x=document.getElementById("textinput").value;
+				document.getElementById("change me").innerHTML = x;
+			}
+		</script>
+	</body>
+</html>

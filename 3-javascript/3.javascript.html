@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Responding to a click</title>
+	</head>
+	
+	<body>
+		<p id="text">Hello World!</p>
+		<button id="mybutton">change me</button>
+		<script type="text/javascript">
+			document.getElementById("mybutton").onclick=function(){
+				alert("button is clicked");
+				document.getElementById("text").innerHTML="hello gyana";
+			}
+		</script>
+	</body>
+</html>
